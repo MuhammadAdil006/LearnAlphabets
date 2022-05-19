@@ -408,14 +408,25 @@
     </TableLayout>
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="416dp"
-        android:layout_height="222dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/imageView4"
+        android:layout_width="411dp"
+        android:layout_height="243dp"
+        android:layout_marginBottom="7dp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="275dp"
+        android:layout_height="274dp"
+        android:layout_marginBottom="457dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Logo" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/llogo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

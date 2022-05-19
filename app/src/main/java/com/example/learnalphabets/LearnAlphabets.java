@@ -33,7 +33,8 @@ public class LearnAlphabets extends AppCompatActivity {
         BUTTON_IDS[12]=(R.id.M);
         BUTTON_IDS[13]=(R.id.N);
         BUTTON_IDS[14]=(R.id.O);
-        BUTTON_IDS[15]=R.id.Q;
+        BUTTON_IDS[15]=R.id.P;
+        BUTTON_IDS[16]=R.id.Q;
         BUTTON_IDS[17]=(R.id.R);
         BUTTON_IDS[18]=(R.id.S);
         BUTTON_IDS[19]=(R.id.T);

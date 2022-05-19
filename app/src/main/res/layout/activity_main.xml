@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="160dp"
         android:layout_height="188dp"
         android:layout_marginStart="1dp"
@@ -54,9 +55,9 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Logo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-134dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/llogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
