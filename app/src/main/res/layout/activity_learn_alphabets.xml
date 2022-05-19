@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:backgroundTint="#FFF2F2"
     tools:context=".LearnAlphabets">
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="349dp"
-        android:layout_height="394dp"
-        android:layout_marginStart="12dp"
+        android:layout_width="392dp"
+        android:layout_height="410dp"
         android:layout_marginTop="150dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/Repo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -33,6 +32,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00BCD4"
                 android:onClick="onClick"
                 android:text="A" />
 
@@ -45,6 +45,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#F44336"
                 android:onClick="onClick"
                 android:text="B" />
 
@@ -57,6 +58,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E91E63"
                 android:onClick="onClick"
                 android:text="C" />
 
@@ -69,6 +71,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#8BC34A"
                 android:onClick="onClick"
                 android:text="D" />
 
@@ -88,6 +91,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#8BC34A"
                 android:onClick="onClick"
                 android:text="E" />
 
@@ -100,6 +104,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00BCD4"
                 android:onClick="onClick"
                 android:text="F" />
 
@@ -112,6 +117,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#F44336"
                 android:onClick="onClick"
                 android:text="G" />
 
@@ -124,6 +130,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E91E63"
                 android:onClick="onClick"
                 android:text="H" />
         </TableRow>
@@ -142,6 +149,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E91E63"
                 android:onClick="onClick"
                 android:text="I" />
 
@@ -154,6 +162,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#8BC34A"
                 android:onClick="onClick"
                 android:text="J" />
 
@@ -167,6 +176,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00BCD4"
                 android:onClick="onClick"
                 android:text="K" />
 
@@ -179,6 +189,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#F44336"
                 android:onClick="onClick"
                 android:text="L" />
         </TableRow>
@@ -197,6 +208,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#F44336"
                 android:onClick="onClick"
                 android:text="M" />
 
@@ -209,6 +221,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E91E63"
                 android:onClick="onClick"
                 android:text="N" />
 
@@ -221,6 +234,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
                 android:onClick="onClick"
                 android:text="O" />
 
@@ -233,6 +247,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00BCD4"
                 android:onClick="onClick"
                 android:text="P" />
         </TableRow>
@@ -251,8 +266,9 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
-                android:onClick="onClick"
+                android:backgroundTint="#00BCD4"
 
+                android:onClick="onClick"
                 android:text="Q" />
 
             <Button
@@ -264,6 +280,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#F44336"
                 android:onClick="onClick"
                 android:text="R" />
 
@@ -276,6 +293,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E91E63"
                 android:onClick="onClick"
                 android:text="S" />
 
@@ -288,6 +306,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
                 android:onClick="onClick"
                 android:text="T" />
         </TableRow>
@@ -306,6 +325,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#8BC34A"
                 android:onClick="onClick"
                 android:text="U" />
 
@@ -318,6 +338,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00BCD4"
                 android:onClick="onClick"
                 android:text="V" />
 
@@ -332,6 +353,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#F44336"
                 android:onClick="onClick"
                 android:text="W" />
 
@@ -344,6 +366,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E91E63"
                 android:onClick="onClick"
                 android:text="X" />
         </TableRow>
@@ -364,6 +387,7 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="0.5"
+                android:backgroundTint="#4CAF50"
                 android:onClick="onClick"
                 android:text="Y" />
 
@@ -376,9 +400,22 @@
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="0.5"
+                android:backgroundTint="#00BCD4"
                 android:onClick="onClick"
                 android:text="Z" />
 
         </TableRow>
     </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="416dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
