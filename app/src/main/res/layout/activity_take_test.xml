@@ -73,14 +73,16 @@
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ant" />
+            app:srcCompat="@drawable/ant"
+            android:onClick="onClick"/>
 
         <ImageView
             android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/boy" />
+            app:srcCompat="@drawable/boy"
+            android:onClick="onClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -102,14 +104,16 @@
             android:layout_width="173dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/cow" />
+            app:srcCompat="@drawable/cow"
+            android:onClick="onClick"/>
 
         <ImageView
             android:id="@+id/option4"
             android:layout_width="157dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/earth" />
+            app:srcCompat="@drawable/earth"
+            android:onClick="onClick"/>
     </LinearLayout>
 
     <TextView
