@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Letter"
         android:layout_width="142dp"
         android:layout_height="119dp"
         android:layout_marginStart="116dp"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/Letter" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -69,14 +69,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/option1"
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/ant" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -98,14 +98,14 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/option3"
             android:layout_width="173dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@drawable/cow" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/option4"
             android:layout_width="157dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
