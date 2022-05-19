@@ -120,7 +120,11 @@
         android:textColor="#CD0E0E"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
