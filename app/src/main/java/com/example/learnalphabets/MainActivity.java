@@ -14,7 +14,7 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity{
-Button repo,learn;
+Button repo,learn,takeTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ Button repo,learn;
         setContentView(R.layout.activity_main);
         repo=(Button) findViewById(R.id.Repo);
         learn=(Button) findViewById(R.id.Learn);
+        takeTest=(Button) findViewById(R.id.Test);
     }
     public void onClick(View view) {
         if(view.getId()==R.id.Repo)
@@ -33,6 +34,10 @@ Button repo,learn;
         }else if(R.id.Learn==view.getId())
         {
             Intent intent2=new Intent(MainActivity.this,LearnAlphabets.class);
+            startActivity(intent2);
+        }else if(R.id.Test==view.getId())
+        {
+            Intent intent2=new Intent(MainActivity.this,TakeTest.class);
             startActivity(intent2);
         }
     }

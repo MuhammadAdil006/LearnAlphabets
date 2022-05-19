@@ -7,36 +7,44 @@
     android:background="#F1F1F1"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/Repo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="142dp"
-        android:layout_marginBottom="88dp"
-        android:onClick="onClick"
-        android:text="@string/repository"
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Learn" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86">
 
-    <Button
-        android:id="@+id/Learn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="525dp"
-        android:layout_marginEnd="252dp"
-        android:layout_marginBottom="22dp"
-        android:onClick="onClick"
-        android:text="Learn"
-        app:layout_constraintBottom_toTopOf="@+id/Repo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/Learn"
+            android:layout_width="157dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Learn" />
+
+        <Button
+            android:id="@+id/Test"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="TakeTest" />
+
+        <Button
+            android:id="@+id/Repo"
+            android:layout_width="162dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/repository" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
