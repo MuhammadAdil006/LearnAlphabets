@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="411dp"
-        android:layout_height="74dp"
+        android:layout_width="299dp"
+        android:layout_height="75dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="Score:"
@@ -39,8 +39,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="411dp"
-        android:layout_height="74dp"
+        android:layout_width="332dp"
+        android:layout_height="66dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="329dp"
         android:gravity="center"
@@ -50,14 +50,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Letter" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="404dp"
-        android:layout_height="158dp"
+        android:layout_width="320dp"
+        android:layout_height="145dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -73,22 +73,22 @@
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ant"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            app:srcCompat="@drawable/ant" />
 
         <ImageView
             android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/boy"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            app:srcCompat="@drawable/boy" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="404dp"
-        android:layout_height="178dp"
+        android:layout_width="328dp"
+        android:layout_height="165dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -104,16 +104,16 @@
             android:layout_width="173dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/cow"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            app:srcCompat="@drawable/cow" />
 
         <ImageView
             android:id="@+id/option4"
             android:layout_width="157dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/earth"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            app:srcCompat="@drawable/earth" />
     </LinearLayout>
 
     <TextView
@@ -126,9 +126,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.823"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.553" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
