@@ -1,8 +1,11 @@
 package com.example.learnalphabets;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -33,6 +36,19 @@ int countScore;
         imageDrawable=new int[26];
         initializeDrawable();
         beginTest();
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle state) {
+        super.onSaveInstanceState(state);
+        state.putString("Score",String.valueOf(countScore));
+
+    }
+
+    @Override
+    public void onRestoreInstanceState(@Nullable Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        score.setText(savedInstanceState.getString("Score"));
     }
 
     private void beginTest() {
