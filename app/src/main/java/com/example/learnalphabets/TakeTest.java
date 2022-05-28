@@ -19,6 +19,7 @@ int[] imageDrawable;
 ImageView letter;
 ImageView[] option;
 int ans;
+int Total;
 int countScore;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,7 @@ int countScore;
         setContentView(R.layout.activity_take_test);
         score=(TextView) findViewById(R.id.Score);
         letter=(ImageView) findViewById(R.id.Letter);
-        countScore=0;
+        Total=countScore=0;
         option=new ImageView[4];
         option[0]=(ImageView) findViewById(R.id.option1);
         option[1]=(ImageView) findViewById(R.id.option2);
@@ -42,6 +43,7 @@ int countScore;
     protected void onSaveInstanceState(@NonNull Bundle state) {
         super.onSaveInstanceState(state);
         state.putString("Score",String.valueOf(countScore));
+
 
     }
 
@@ -72,7 +74,7 @@ int countScore;
             {
                 e=GenrateNumber(0,25);
             }
-
+            f=GenrateNumber(0,4);
             letter.setImageResource(letterDrawable[a]);
             option[0].setImageResource(imageDrawable[b]);
             option[1].setImageResource(imageDrawable[c]);
@@ -150,11 +152,18 @@ int countScore;
     }
 
     public void onClick(View view) {
+        Total=Total+1;
         if(view==option[ans])
         {
-           countScore=Integer.parseInt((String) score.getText());
+
            countScore=countScore+1;
-           score.setText(String.valueOf(countScore));
+
+        }
+
+        score.setText(String.valueOf(countScore)+" Out of "+ " 15");
+        if(Total==15)
+        {
+            finish();
         }
         beginTest();
     }

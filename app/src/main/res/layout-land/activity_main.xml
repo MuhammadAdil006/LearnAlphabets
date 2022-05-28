@@ -20,6 +20,7 @@
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/llogo" />
 
     <Button
@@ -27,9 +28,9 @@
         android:layout_width="124dp"
         android:layout_height="45dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginBottom="92dp"
         android:layout_weight="0.2"
         android:backgroundTint="#F44336"
         android:onClick="onClick"
@@ -66,6 +67,16 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/Test"
         app:layout_constraintEnd_toStartOf="@+id/Test"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/commits" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
