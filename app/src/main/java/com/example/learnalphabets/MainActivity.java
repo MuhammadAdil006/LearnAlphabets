@@ -15,6 +15,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity{
 Button repo,learn,takeTest;
+Button learnCus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ Button repo,learn,takeTest;
         repo=(Button) findViewById(R.id.Repo);
         learn=(Button) findViewById(R.id.Learn);
         takeTest=(Button) findViewById(R.id.Test);
+        learnCus=(Button) findViewById(R.id.learnCus);
+
     }
     public void onClick(View view) {
         if(view.getId()==R.id.Repo)
@@ -38,6 +41,10 @@ Button repo,learn,takeTest;
         }else if(R.id.Test==view.getId())
         {
             Intent intent2=new Intent(MainActivity.this,TakeTest.class);
+            startActivity(intent2);
+        }else if(R.id.learnCus==view.getId())
+        {
+            Intent intent2=new Intent(MainActivity.this,CustomizedView.class);
             startActivity(intent2);
         }
     }

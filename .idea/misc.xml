@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/LearnAlphabets/app/src/main/res/layout/activity_customized_view.xml" value="0.31040564373897706" />
         <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/LearnAlphabets/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/LearnAlphabets/app/src/main/res/layout/pattern.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout-land/activity_learn_alphabets.xml" value="0.2777777777777778" />
         <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout-land/activity_main.xml" value="0.2724867724867725" />
         <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout-land/activity_take_test.xml" value="0.33" />

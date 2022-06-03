@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAlphabets">
         <activity
+            android:name=".CustomizedView"
+            android:exported="false" />
+        <activity
             android:name=".TakeTest"
             android:exported="false" />
         <activity
