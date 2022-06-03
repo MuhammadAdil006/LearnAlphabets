@@ -80,5 +80,19 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
         app:srcCompat="@drawable/commits" />
 
+    <Button
+        android:id="@+id/learnCus"
+        android:layout_width="192dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="6dp"
+        android:text="Learn Side By Side"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
