@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
     android:background="#FFFFFF"
     android:backgroundTint="#F4FEFF">
 
     <ImageView
         android:id="@+id/img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="244dp"
-        android:layout_marginTop="120dp"
+        android:layout_width="158dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -21,8 +23,8 @@
         android:id="@+id/alphabet"
         android:layout_width="108dp"
         android:layout_height="70dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="80dp"
         android:background="#000000"
         android:backgroundTint="#00BCD4"
         android:text="A"
